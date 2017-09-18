@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXIOS email-post</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+<main>
+	<section>
+		<form method="POST" enctype="multipart/form-data">
+			<fieldset class="margin-b">
+				<legend>Contact Me</legend>
+				<label>Name:<input id="name" type="text" name="name" value="" pattern="[a-zA-Z -._}{2,30}" required autofocus ></label>
+				<label>Email:<input id="email" type="email" name="email" value=""></label>
+				<label>Message:<textarea id="body" name="body" rows="5"></textarea></label>
+			</fieldset>
+			<input type="submit" name="submit" value="Submit" onclick="return axiosPOST()">
+			<!-- <input type="hidden" name="redirect" value="thanks.html"> -->
+		</form>
+	</section>
+</main>
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/axios/dist/axios.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

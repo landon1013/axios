@@ -1,0 +1,23 @@
+{
+  "name": "email-post",
+  "version": "1.0.0",
+  "description": "Group project to POST an email 3 different ways",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landon1013/DGM-3790-email-post.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landon1013/DGM-3790-email-post/issues"
+  },
+  "homepage": "https://github.com/landon1013/DGM-3790-email-post#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "jquery": "^3.2.1"
+  }
+}

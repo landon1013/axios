@@ -1,0 +1,104 @@
+/*--- mobile.css ---*/
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;  
+}
+
+html {
+	-webkit-text-size-adjust: none; 
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    background: mediumvioletred;
+    border-radius: 3px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+	display: block;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left:  auto;
+	width: 50%;
+}
+
+.thank-you {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 2.4em;
+}
+
+.active{
+	background-color: #5FCF80;
+}
+/*-- Fieldset --*/
+
+fieldset {
+	padding: 1em;
+	border: 2px solid #323232;
+	border-radius: 0.4em;
+}
+
+legend {
+	padding: 0.5em;
+	font-size: 1.2em;
+	color: #fff;
+	border-radius: 2px;
+	background-color: #5fcf80;
+}
+
+label input {
+	display: block;
+	width: 50%;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	padding: 5px;
+	border: 1px solid #323232;
+	border-radius: 3px;
+}
+
+input:focus {
+	box-shadow: 1px 1px 4px (0,0,0,0.5 inset);
+}
+
+textarea {
+	width: 100%;
+	display: block;
+	margin: 0.5em 0;
+	border: 1px solid #323232;
+	border-radius: 3px;
+}
+
+/* Input */
+
+input[type=submit] {
+	display: block;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left:  auto;
+	padding: 0.5em 3em;
+	font-size: 1em;
+	color: #5fcf80;
+	background-color: #fff;
+	border: 3px solid #5fcf80;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	color: #fff;
+	background-color: #5fcf80;
+	border: 3px solid #5fcf80;
+}
